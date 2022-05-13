@@ -228,7 +228,7 @@ a:hover {
 /* Start Landing */
     .landing {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         background-color: #fbf8f3;
     }
 
@@ -543,7 +543,7 @@ a:hover {
 /* Start Feedback */
 .feedback {
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .feedback .container {
@@ -621,5 +621,41 @@ a:hover {
     margin-top: 0;
 }
 
-
 /* End Feedback */
+
+/* Start Footer */
+        .footer {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #fbf8f3;
+        }
+
+        .footer .container {
+            display: flex;
+           justify-content: space-between;
+        }
+
+        @media (max-width: 767px) {
+            .footer .container {
+                flex-direction: column;
+            }
+        }
+
+        .footer .container .col .about {
+            width: 350px
+        }
+
+        .footer .container .col .f-title {
+            font-weight: bold;
+        }
+
+        .footer .container .col .author {
+            padding-top: 30px;
+        }
+
+        @media (max-width: 767px) {
+            .footer .container .col .author {
+                padding-top: 0px;
+            }
+        }
+/* End Footer */

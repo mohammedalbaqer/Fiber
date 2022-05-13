@@ -458,7 +458,7 @@ a:hover {
 /* Start Trial */
     .trial {
         padding-top: 30px;
-        padding-bottom: 60px;    
+        padding-bottom: 30px;    
     }
 
     .trial .container {
@@ -539,3 +539,87 @@ a:hover {
         }
     }
 /* End Trial */
+
+/* Start Feedback */
+.feedback {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.feedback .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+@media (max-width: 767px) {
+    .feedback .container {
+        flex-direction: column;
+    }
+}
+
+.feedback .container .box {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.feedback .container .box .user-info {
+    display: flex;
+    gap: 10px;
+    padding: 15px 0 0px 15px;
+}
+
+.feedback .container .box .user-info .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback .container .box .user-info .name .us-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d13d1;
+    margin-bottom: 0;
+}
+
+.feedback .container .box .user-info .name .us-mony {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.feedback .container .box .user-info .image {
+    padding: 10px;
+}
+
+.feedback .container .box .user-info .image img {
+    width: 40px;
+}
+
+.feedback .container .box .desc {
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.feedback .container .box .us-btn {
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(243, 240, 240);
+    color: #4d13d1;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.feedback .container .box a {
+    padding: 15px 45px 25px 45px;
+    margin-top: 0;
+}
+
+
+/* End Feedback */
